@@ -2,8 +2,7 @@
 import os
 
 os.system("pip install -U -q google-generativeai")
-
-!pip install -q streamlit
+os.system("!pip install -q streamlit")
 
 # Importe o módulo google.generativeai
 import google.generativeai as genai
